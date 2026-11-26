@@ -82,9 +82,9 @@
 	// Demo 默认登录信息。其他使用者只需要修改这里的 appKey、accountId、token。
 	// 页面输入框仍会优先读取本地缓存；如果想恢复这里的默认值，可清理应用缓存后重新打开 Demo。
 	const DEMO_LOGIN_CONFIG : DemoLoginConfig = {
-		appKey: '3e215d27b6a6a9e27dad7ef36dd5b65c',
-		accountId: '334665458163968',
-		token: '8d5ca2c8-9c02-481c-9908-ca1e96038788'
+		appKey: 'your yunxin appKey',
+        accountId: 'login account id',
+        token: 'login token'
 	}
 
 	const appkey = ref(getStoredString('demo_appkey', DEMO_LOGIN_CONFIG.appKey) as string)
